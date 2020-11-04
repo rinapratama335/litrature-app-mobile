@@ -1,0 +1,42 @@
+const mainColors = {
+  bgColor: '#161616',
+  orange: '#AF2E1C',
+  orangeText: '#F7941E',
+  green: '#3BB54A',
+  greenLight: '#0ACF83',
+  redDanger: '#FF0742',
+  blue: '#0058DD',
+  white: '#ffffff',
+  whiteBtn: '#F9F9F9',
+  black: '#000000',
+  blackOpacity: 'rgba(0, 0, 0, 0.7)',
+  gray: '#929292',
+  purple: '#7a44cf',
+  blueBtn: '#0f3057',
+  redError: '#e06379',
+};
+
+export const colors = {
+  bgColor: mainColors.bgColor,
+  black: mainColors.black,
+  blackOpacity: mainColors.blackOpacity,
+  orange: mainColors.orange,
+  orangeText: mainColors.orangeText,
+  redDanger: mainColors.redDanger,
+  redError: mainColors.redError,
+  text: {
+    primary: mainColors.black,
+    secondary: mainColors.white,
+    tersier: mainColors.gray,
+    purple: mainColors.purple,
+    orange: mainColors.orangeText,
+    greenLight: mainColors.greenLight,
+  },
+  button: {
+    primary: mainColors.orange,
+    secondary: mainColors.whiteBtn,
+    tersier: mainColors.blueBtn,
+    purple: mainColors.purple,
+    greenLight: mainColors.greenLight,
+  },
+};
